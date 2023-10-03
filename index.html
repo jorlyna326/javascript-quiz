@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <script src="script.js"></script>  
+
+    <header>
+        <a>View High Scores</a>
+        <p>Timer : 0</p>
+    </header>
+    <section class="section 1" style="display:none">
+        <h1>Code Quiz Challenge</h1>
+        <p>Answer code-related questions within the time limit; incorrect responses incur a 10-second penalty.</p>
+        <button>Start Quiz</button>
+    </section>
+
+    <section class="section-2" style="display:block">
+        <h1>Commonly used data types DO NOT include:</h1>
+        <ul>
+            <li><button class="answer-button">1. strings</button></li>
+            <li><button class="answer-button">2. booleans</button></li>
+            <li><button class="answer-button">3. alerts</button></li>
+            <li><button class="answer-button">4 .numbers</button></li>
+        </ul>
+        <footer> Wrong! </footer> 
+
+    </section>
+
+    <section class="section-3" style="display:none">
+        <h1>All done!</h1>
+        <p> Your final score is 22.
+        <form>
+            <p> Enter Initials </p>
+            <input type="text"></input>
+        </form>
+        <footer> Form Submitted! </footer> 
+    </section>
+
+    <section class="section-4" style="display:none">
+        <h1>High scores</h1>
+        <ul>
+            <li>
+                <p>1.AB-22</p>
+            </li>
+            <li>
+                <p>2.AC-20</p></button>
+            </li>
+            <li>
+                <p>3.AD-12</p></button>
+            </li>
+            <li>
+                <p>4.AE-2</p></button>
+            </li>
+        </ul>
+        <div>
+            <button id="Go-Back-Button">Go Back</button>
+            <button id="Clear-Scores-Button">Clear High Score</button>
+        </div>
+        <footer> Scores Cleared </footer> 
+    </section>
+
+
+
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
