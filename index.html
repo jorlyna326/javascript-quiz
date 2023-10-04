@@ -5,64 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
     <header>
         <a>View High Scores</a>
-        <p>Timer : 0</p>
+        <p id="timer">Timer : 60</p>
     </header>
-    <section class="section-1" style="display:none">
+    <section id="section-1" class="section-1" style="display:block">
+        
         <h1>Code Quiz Challenge</h1>
         
         <p>Answer code-related questions within the time limit; incorrect responses incur a 10-second penalty.</p>
-       
-        <button>Start Quiz</button>
+       <!-- added id for the click -->
+        <button id="start">Start Quiz</button>
     </section>
 
-    <section class="section-2" style="display:block">
-        <h1>What does the 'DOM' stand for in JavaScript?</h1>
-        <ul>
-            <li><button class="answer-button">1. Document Object Model</button></li>
-            <li><button class="answer-button">2. Data Object Model</button></li>
-            <li><button class="answer-button">3. Dynamic Object Manipulation</button></li>
-            <li><button class="answer-button">4. Document Order Model</button></li>
+    <section id="section-2" class="section-2" style="display:none"><!-- Hidden -->
+        <h1 class="h1"></h1>
+        <ul id="ul-element">
         </ul>
-        <footer> Wrong! </footer> 
+        <footer id="footer"> </footer> 
       
     </section>
 
-    <section class="section-3" style="display:none">
+    <section id="section-3" style="display:none"><!-- Hidden -->
         <h1>All done!</h1>
-        <p>Your final score is 22.</p>
+        <p id="score">Your final score is 22.</p>
         <form>
             <p>Enter Initials</p>
             <input type="text">
         </form>
-        <footer id="formSubmitted" style="display:none">Form Submitted! <!-- Hidden by default --></footer>
+        <footer id="formSubmitted" style="display:none">Form Submitted! <!-- Hidden --></footer>
     </section>
-    
             
-          
-    </section>
-
-    <section class="section-4" style="display:none">
-        <h1>High scores</h1>
-        <ul>
-            <li>
-                <p>1. AB-22</p>
-            </li>
-            <li>
-                <p>2. AC-20</p></button>
-            </li>
-            <li>
-                <p>3. AD-12</p></button>
-            </li>
-            <li>
-                <p>4. AE-2</p></button>
-            </li>
+    <section id="section-4" style="display:none">
+        <h1>High Scores</h1>
+        <ul id="ul-element">
         </ul>
         <div>
             <button id="Go-Back-Button">Go Back</button>
