@@ -12,4 +12,4 @@
 jorlyna326.github.io/javascript-quiz
 
 ## Screenshot
-LINK SCREENSHOT
+hw snip.png
