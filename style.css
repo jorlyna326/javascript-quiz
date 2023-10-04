@@ -8,15 +8,15 @@ header{
     align-items: center;
     margin: 0;
     padding: 10px;
-    font-size: 32px;
-    background: rgb(12, 142, 228);
+    font-size: 24px;
+    background: rgb(153, 107, 159);
     }
 h1 {
-    font-size: 48px;
+    font-size: 36px;
 }
 
 p {
-    font-size: 32px;
+    font-size: 24px;
     list-style-type: none;
 }
 
@@ -27,7 +27,7 @@ li{
 
    
 .section1 {
-    height : 500px;
+    height : fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,15 +39,16 @@ li{
     padding: 10px 20px;
     margin: 5px;
     font-size: 16px;
-    background-color: #007bff;
+    background-color: #351571;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     width: 20%;
     text-align: center;
+    
 }
 
 #start {
-    background-color: aquamarine;
+    background-color: #C15AE0;
 }
