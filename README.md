@@ -9,7 +9,7 @@
 - I learned that little by little, I'm officially learning to code!
 
 ## Check it out here!
-jorlyna326.github.io/javascript-quiz
+https://jorlyna326.github.io/javascript-quiz/
 
 ## Screenshot
 hw snip.png
